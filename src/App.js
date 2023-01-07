@@ -2,11 +2,16 @@
 import './App.css';
 import Header from './Header'
 import StickyHeader from './StickyHeader'
+import React, { useEffect } from "react"
 
 function App() {
-  const contents = document.querySelectorAll(".content");
-          
-  intersection(contents);
+  
+
+  useEffect(() => {
+    const contents = document.querySelectorAll(".content");
+    intersection(contents);
+  }, [])
+  
   return (
     <>
 
