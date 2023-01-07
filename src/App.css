@@ -26,6 +26,7 @@ body {
   animation: bg-animation 25s infinite alternate;
   margin: 0;
   padding: 0;
+  position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
   max-width: 100%;
