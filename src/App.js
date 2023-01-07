@@ -11,9 +11,10 @@ function App() {
     const contents = document.querySelectorAll(".content");
     intersection(contents);
   }, [])
-  
+
   return (
     <>
+    <div className='divWrap'>
 
     <Header />
     
@@ -125,6 +126,7 @@ function App() {
             </div>
         </div>
 
+    </div>
     </div>
     </>
   );

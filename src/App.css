@@ -29,7 +29,17 @@ body {
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.divWrap {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
