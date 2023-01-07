@@ -5,7 +5,7 @@ import StickyHeader from './StickyHeader'
 
 function App() {
   const contents = document.querySelectorAll(".content");
-      
+          
   intersection(contents);
   return (
     <>

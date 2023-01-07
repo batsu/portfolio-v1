@@ -13,7 +13,7 @@ export default function StickyHeader() {
     return (
         <header className="sticky">
             <div>
-                <a href="mailto:pgchao@gmail.com">
+                <a href="mailto:pgchao@gmail.com" className="leftIcon">
                      <FontAwesomeIcon icon={faEnvelope} size="3x" />
                 </a>
 
