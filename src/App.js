@@ -15,10 +15,15 @@ function App() {
   return (
     <>
     <div className='divWrap'>
+      <Header />
+      </div>
 
-    <Header />
-    
+    <div className='sticky'>
     <StickyHeader />
+    </div>
+    
+    
+    
 
     <div className="container">
         <div className="content">
@@ -127,7 +132,7 @@ function App() {
         </div>
 
     </div>
-    </div>
+
     </>
   );
 }

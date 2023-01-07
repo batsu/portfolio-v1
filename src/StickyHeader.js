@@ -11,7 +11,7 @@ library.add(fab)
 
 export default function StickyHeader() {
     return (
-        <header className="sticky">
+        <header>
             <div>
                 <a href="mailto:pgchao@gmail.com" className="leftIcon">
                      <FontAwesomeIcon icon={faEnvelope} size="3x" />
