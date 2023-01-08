@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import StickyHeader from './StickyHeader'
 import React, { useEffect } from "react"
+import $ from 'jquery';
 
 function App() {
   
@@ -13,14 +14,16 @@ function App() {
   }, [])
 
   return (
-    <>
+    
     <div className='divWrap'>
       <Header />
-      </div>
+      
 
     <div className='sticky'>
-    <StickyHeader />
+      <StickyHeader />
     </div>
+    
+    
     
     
     
@@ -132,8 +135,8 @@ function App() {
         </div>
 
     </div>
-
-    </>
+    </div>
+    
   );
 }
 
@@ -159,3 +162,14 @@ function intersection(contents) {
   });
 }
 
+// $(window).scroll(function(e){ 
+//   var $el = $('.sticky'); 
+//   var isPositionFixed = ($el.css('position') === 'fixed');
+//   if ($(this).scrollTop() > 235 && !isPositionFixed){ 
+//     $el.css({'position': 'absolute', 'top': '0px'});
+//     $("html, body").animate({ scrollTop: 0 }, "instant");
+//   }
+//   if ($(this).scrollTop() < 235 && isPositionFixed){
+//     $el.css({'position': 'static', 'top': '0px'}); 
+//   } 
+// });

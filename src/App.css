@@ -40,10 +40,11 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  overflow: none; */
 }
 
 a {
@@ -286,5 +287,8 @@ hr {
 
 .sticky {
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
+  width: 100%;
+
 }

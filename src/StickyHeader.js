@@ -12,7 +12,7 @@ library.add(fab)
 export default function StickyHeader() {
     return (
         <header>
-            <div>
+            
                 <a href="mailto:pgchao@gmail.com" className="leftIcon">
                      <FontAwesomeIcon icon={faEnvelope} size="3x" />
                 </a>
@@ -22,7 +22,7 @@ export default function StickyHeader() {
                     <FontAwesomeIcon icon={['fab', 'github']} size="3x" />
                 </a> 
                 
-            </div>
+            
         </header>
     )
     
