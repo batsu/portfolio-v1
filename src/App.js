@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header'
 import StickyHeader from './StickyHeader'
 import React, { useEffect } from "react"
-import $ from 'jquery';
+// import $ from 'jquery';
 
 function App() {
   
